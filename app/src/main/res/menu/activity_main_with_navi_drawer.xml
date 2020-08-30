@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:id="@+id/mn1">
+    <group
+        android:id="@+id/group_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/heavi_trans"
+            android:title="@string/heavi_trans"/>
+        <item
+            android:id="@+id/tn_trans"
+            android:title="трансформатор напряжения"/>
+        <item
+            android:id="@+id/gen"
+            android:title="генератор"/>
+        <item
+            android:id="@+id/dizel"
+            android:title="дизель генератор"/>
+        <item
+            android:id="@+id/dvigatel"
+            android:title="двигатель"/>
+        <item
+            android:id="@+id/database"
+            android:title="база данных"/>
+    </group>
+
+</menu>
